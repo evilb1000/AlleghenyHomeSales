@@ -1,0 +1,19 @@
+cat > .gitignore <<EOF
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+.venv/
+.env/
+venv/
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore system files
+.DS_Store
+
+# Ignore all local data
+Data/
+EOF
